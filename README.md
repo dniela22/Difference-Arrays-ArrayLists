@@ -8,7 +8,7 @@ Arrays can hold different data types like strings, ints, etc., but you must reme
     This is what an array that stores an integer looks like:  
     
     String [] names = new String[7]; 
-    /**Where String states the type of values that can be stored in the array*/
+    /**Where int states the type of values that can be stored in the array*/
 
 Since arrays have a set size, they can be computed faster than ArrayLists, as ArrayLists have to process requests for adding or removing values and resizing the array if it happens to run out of space.
 Lastly, individual elements in an array are accessed by an integer index i, using the notation array[i].
